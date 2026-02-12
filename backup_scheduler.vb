@@ -2,15 +2,6 @@ Imports System.IO
 Imports System.Threading.Tasks
 Imports System.Windows.Forms
 
-Module Program
-    <STAThread>
-    Sub Main()
-        Application.EnableVisualStyles()
-        Application.SetCompatibleTextRenderingDefault(False)
-        Application.Run(New BackupForm())
-    End Sub
-End Module
-
 Public Class BackupForm
     Inherits Form
 
